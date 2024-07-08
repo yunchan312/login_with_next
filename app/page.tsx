@@ -5,6 +5,7 @@ import { useFormState } from "react-dom";
 import { FaFireFlameCurved } from "react-icons/fa6";
 import handleForm from "./action";
 import { FaRegCheckCircle } from "react-icons/fa";
+import "@/lib/db";
 
 export default function Home() {
   const [state, action] = useFormState(handleForm, {
